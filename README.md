@@ -7,34 +7,41 @@
 
 ### Datasets: MovieLens  
 
-The full datasets can be found [here](https://grouplens.org/datasets/movielens/)
- For Homework2, we used the small dataset of MovieLens which has 100,000 ratings and 3,600 tag applications applied to 9,000 movies by 600 users. Last updated 9/2018.
+The full datasets can be found [here].(https://grouplens.org/datasets/movielens/)
+
+For Homework2, we used the small dataset of MovieLens which has 100,000 ratings and 3,600 tag applications applied to 9,000 movies by 600 users. Last updated 9/2018.
 
 ### Algorithms:
- ⋅⋅* Neighborhood-based  Collaborative Filtering: K-NN
-⋅⋅* Model-based  Collaborative Filtering: SVD Matrix Factorization
+* Neighborhood-based  Collaborative Filtering: K-NN
+* Model-based  Collaborative Filtering: SVD Matrix Factorization
 
 
 ### Major steps:
- ⋅⋅⋅1. Data preparation and spliting train set and test set
- ⋅⋅⋅2. Train K-NN and SVD model
- ⋅⋅⋅3. Provide recommendations
- ⋅⋅⋅4. Model evaluation: 1. Accuracy : MAE, MRSE 2. Coverage 
+1. Data preparation and spliting train set and test set
+2. Train K-NN and SVD model
+3. Provide recommendations
+4. Model evaluation: 
+                             *Accuracy : MAE, MRSE
 
 
 # Requirements: 
 
-⋅⋅* Python 3.6
-⋅⋅* Jupyter Notebook
+* Python 3.6
+* Jupyter Notebook
 
 ### Toolkits:
 
-⋅⋅* [pandas](https://pandas.pydata.org)
-⋅⋅* [numpy](http://www.numpy.org)
-⋅⋅* [matplotlib](https://matplotlib.org)
-⋅⋅* [seaborn](https://seaborn.pydata.org)
-⋅⋅* [surprise](http://surpriselib.com)
-⋅⋅* [sklearn](http://scikit-learn.org/stable/)
+* [pandas](https://pandas.pydata.org)
+
+* [numpy](http://www.numpy.org)
+
+* [matplotlib](https://matplotlib.org)
+
+* [seaborn](https://seaborn.pydata.org)
+
+* [surprise](http://surpriselib.com)
+
+* [sklearn](http://scikit-learn.org/stable/)
 
 
 
