@@ -113,6 +113,8 @@ The fitting time increases monotonically as sample size getting larger.
 
 ### 2.3 Coverage
 
+catalog-coverage: the fraction of items that are in the top-k for at least 1 user
+
 We have 610 users, 193609 items and 100836 ratings.
 
 
