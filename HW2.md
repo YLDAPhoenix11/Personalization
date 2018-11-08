@@ -7,7 +7,7 @@
 ### Ratings Dataset
 
 
-![png](output_2_1.png)
+![png](https://ws1.sinaimg.cn/large/006tNbRwly1fx0deu5h0uj30af07eaa7.jpg)
 
 
 There are more ratings in score 4 and 3 than that in other scores, showing that most of users are neutralistic. However, some users might rate their favorite movies only 4 stars while some rate it as 5 stars due to personality variance.
@@ -19,7 +19,7 @@ There are more ratings in score 4 and 3 than that in other scores, showing that 
 ### Fitting time vs. Neighbor size 
 
 
-![png](output_7_1.png)
+![png](https://ws4.sinaimg.cn/large/006tNbRwly1fx0dejbu7lj30ce07q74h.jpg)
 
 
 The running time increases as k increases.
@@ -28,7 +28,7 @@ The running time increases as k increases.
 #### Primary accuracy metric : MAE
 
 
-![png](output_10_1.png)
+![png](https://ws1.sinaimg.cn/large/006tNbRwly1fx0det7mzqj30c207qjrq.jpg)
 
 
 Observation :
@@ -37,7 +37,7 @@ The MAE of both train and test data increase as the neighbor size increases.
 #### Secondary accuracy metric: RMSE
 
 
-![png](output_13_1.png)
+![png](https://ws2.sinaimg.cn/large/006tNbRwly1fx0de69tqej30c607qt92.jpg)
 
 
 Observation :
@@ -46,7 +46,7 @@ The RMSE of both train and test data increase as the neighbor size increases.
 ### How does Data size impact the accuracy of KNN (Self-implement)?
 
 
-![png](output_16_1.png)
+![png](https://ws3.sinaimg.cn/large/006tNbRwly1fx0degzf6xj30az07q0t5.jpg)
 
 
 The MAE and RMSE go down as sample sizes increases. 
@@ -54,7 +54,7 @@ The MAE and RMSE go down as sample sizes increases.
 ### How does sample size impact the run-time of KNN (self-implement)?
 
 
-![png](output_19_1.png)
+![png](https://ws3.sinaimg.cn/large/006tNbRwly1fx0del9dmhj30aq07qq34.jpg)
 
 
 The fitting time goes up as the sample size going up.
@@ -63,7 +63,7 @@ The fitting time goes up as the sample size going up.
 ### Fitting time vs. Neighbor size 
 
 
-![png](output_22_1.png)
+![png](https://ws2.sinaimg.cn/large/006tNbRwly1fx0def7qicj30bo07qjrm.jpg)
 
 
 As shown above, when k is around 55, the fitting time is highest, meaning that the model is most complex at this neighbor size. The lowest fitting time is at k =75 approximately. While the run time of KNN without baseline is monotonically increasing by the increment of k. 
@@ -74,7 +74,7 @@ As shown above, when k is around 55, the fitting time is highest, meaning that t
 #### Primary accuracy metric : MAE
 
 
-![png](output_26_1.png)
+![png](https://ws2.sinaimg.cn/large/006tNbRwly1fx0dehk91gj30b807qdg3.jpg)
 
 
 The MAE is around 0.67 and it changes little by the increment of neighbor size.
@@ -82,7 +82,7 @@ The MAE is around 0.67 and it changes little by the increment of neighbor size.
 #### Secondary accuracy metric: RMSE
 
 
-![png](output_29_1.png)
+![png](https://ws1.sinaimg.cn/large/006tNbRwly1fx0deg4en7j30bi07qwes.jpg)
 
 
 The RMSE is around 0.873 and it changes little by the increment of neighbor size.
@@ -108,7 +108,7 @@ The large errors in the results means that our recommender predict completely wr
 Now we are trying to test how this model changes by the input data size.
 
 
-![png](output_33_1.png)
+![png](https://ws4.sinaimg.cn/large/006tNbRwly1fx0dev2tzhj30aw07qaai.jpg)
 
 
 As the plot showing, the larger the sample size, the less MAE and RMSE.  But the MAE and RMSE of train set becomes larger as sample size increasing. 
@@ -118,7 +118,7 @@ The model overfits the train data when sample size is small.
 ### How does Sample size impact the run-time of KNN (by Surprise)?
 
 
-![png](output_36_1.png)
+![png](https://ws4.sinaimg.cn/large/006tNbRwly1fx0deda9dcj30az07qt8y.jpg)
 
 
 The fitting time increases monotonically as sample size getting larger.
@@ -128,7 +128,7 @@ The fitting time increases monotonically as sample size getting larger.
 We have 610 users, 193609 items and 100836 ratings.
 
 
-![png](output_40_1.png)
+![png](https://ws4.sinaimg.cn/large/006tNbRwly1fx0dee6mlcj30fe07q0t3.jpg)
 
 
 ## Conclusions on KNN:
@@ -149,7 +149,7 @@ We have 610 users, 193609 items and 100836 ratings.
 ### Fitting time vs. latent dimensions
 
 
-![png](output_45_1.png)
+![png](https://ws4.sinaimg.cn/large/006tNbRwly1fx0dekbah7j30aq07r0sv.jpg)
 
 
 The higher the latent dimensions, the slower the fitting time of the model since the model gets more complex.
@@ -158,7 +158,7 @@ The higher the latent dimensions, the slower the fitting time of the model since
 #### Primary accuracy metric : MAE
 
 
-![png](output_48_1.png)
+![png](https://ws2.sinaimg.cn/large/006tNbRwly1fx0deemmtdj30az07qt8z.jpg)
 
 
 MAE first decreases as latent dimensions increase. Then MAE increases with the increment of latent dimensions. 
@@ -168,7 +168,7 @@ The lowest MAE occurs at latent dimension = 12
 #### Secondary accuracy metric: RMSE
 
 
-![png](output_51_1.png)
+![png](https://ws4.sinaimg.cn/large/006tNbRwly1fx0deagz0aj30b607q3yu.jpg)
 
 
 The trend of RMSE by latent dimensions is similar with MAE. But the RMSE are lower at both latent dimension =2 and =12 than other values of latent dimension. 
@@ -176,7 +176,7 @@ The trend of RMSE by latent dimensions is similar with MAE. But the RMSE are low
 ### How does Sample size impact the accuracy of NMF?
 
 
-![png](output_54_1.png)
+![png](https://ws4.sinaimg.cn/large/006tNbRwly1fx0deiigzoj30at07qgm1.jpg)
 
 
 When sample size is small, the model overfit the train data. 
@@ -184,7 +184,7 @@ When sample size is small, the model overfit the train data.
 ### How does Data size impact the run-time of NMF?
 
 
-![png](output_57_1.png)
+![png](https://ws4.sinaimg.cn/large/006tNbRwly1fx0de5kub8j30at07qaa9.jpg)
 
 
 As the sample size increases, the model is getting more complex. 
@@ -202,7 +202,7 @@ As the sample size increases, the model is getting more complex.
 ### Fitting time vs. hyper-parameters
 
 
-![png](output_63_1.png)
+![png](https://ws3.sinaimg.cn/large/006tNbRwly1fx0de8mn0zj30ap07edg3.jpg)
 
 
 As the plot showing, there is no pattern of relationships between fitting time and learning rate at a fixed regularization. The SVD model's fitting time has no strong relations with the learning rate and regularization.
@@ -211,7 +211,7 @@ As the plot showing, there is no pattern of relationships between fitting time a
 #### primary accuracy metric : MAE
 
 
-![png](output_66_1.png)
+![png](https://ws1.sinaimg.cn/large/006tNbRwly1fx0de9jhtij30av07ewep.jpg)
 
 
 As we can clearly see in the plot, increasing learning rate causes lower MAE on test data at each level of regularization. The heavier weight of the regularization, the lower the MAE.
@@ -219,7 +219,7 @@ As we can clearly see in the plot, increasing learning rate causes lower MAE on 
 #### secondary accuracy metric : RMSE
 
 
-![png](output_69_1.png)
+![png](https://ws4.sinaimg.cn/large/006tNbRwly1fx0debfferj30ao07e3yp.jpg)
 
 
 The trend of RMSE is similar with MAE. RMSE goes down as more regularization is enforced.
@@ -227,7 +227,7 @@ The trend of RMSE is similar with MAE. RMSE goes down as more regularization is 
 ### How does Data size impact the accuracy of SVD?
 
 
-![png](output_72_1.png)
+![png](https://ws4.sinaimg.cn/large/006tNbRwly1fx0de7p5uzj30at07qaai.jpg)
 
 
 The model overfits the training data very easily when the training set is small. 
@@ -236,15 +236,15 @@ MAE and RMSE is getting smaller when sample size increases.
 ### How does Data size impact the run-time of SVD?
 
 
-![png](output_75_1.png)
+![png](https://ws4.sinaimg.cn/large/006tNbRwly1fx0deccxsrj30aq07q0sx.jpg)
 
 
 The smaller the sample size, the faster the model fits. 
 
-## Coverage on training and test data
+## Coverage
 
 
-![png](output_78_1.png)
+![png](https://ws2.sinaimg.cn/large/006tNbRwly1fx0de6yr3nj30fe07qq3c.jpg)
 
 
 ### Conclusions on SVD model:
