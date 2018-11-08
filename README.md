@@ -7,7 +7,7 @@
 
 ### Datasets: MovieLens  
 
-The full datasets can be found [here].(https://grouplens.org/datasets/movielens/)
+The full datasets can be found [here](https://grouplens.org/datasets/movielens/).
 
 For Homework2, we used the small dataset of MovieLens which has 100,000 ratings and 3,600 tag applications applied to 9,000 movies by 600 users. Last updated 9/2018.
 
