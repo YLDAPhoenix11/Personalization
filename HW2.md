@@ -205,7 +205,7 @@ As the sample size increases, the model is getting more complex.
 ### 3.2.1 Fitting time vs. hyper-parameters
 
 
-![png](https://ws3.sinaimg.cn/large/006tNbRwly1fx0de8mn0zj30ap07edg3.jpg)
+<img src ="newplot01.png">
 
 
 As the plot showing, there is no pattern of relationships between fitting time and learning rate at a fixed regularization. The SVD model's fitting time has no strong relations with the learning rate and regularization.
