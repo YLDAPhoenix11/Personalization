@@ -205,7 +205,7 @@ As the sample size increases, the model is getting more complex.
 ### 3.2.1 Fitting time vs. hyper-parameters
 
 
-<img src ="newplot01.png">
+![Screen Shot 2018-11-07 at 10.22.01 PM](https://ws4.sinaimg.cn/large/006tNbRwly1fx0hqhic8zj30oo0f2aax.jpg)
 
 
 As the plot showing, there is no pattern of relationships between fitting time and learning rate at a fixed regularization. The SVD model's fitting time has no strong relations with the learning rate and regularization.
@@ -214,7 +214,7 @@ As the plot showing, there is no pattern of relationships between fitting time a
 #### primary accuracy metric : MAE
 
 
-![png](https://ws1.sinaimg.cn/large/006tNbRwly1fx0de9jhtij30av07ewep.jpg)
+![Screen Shot 2018-11-07 at 10.23.26 PM](https://ws3.sinaimg.cn/large/006tNbRwly1fx0hqi7gtpj30nk0f80tj.jpg)
 
 
 As we can clearly see in the plot, increasing learning rate causes lower MAE on test data at each level of regularization. The heavier weight of the regularization, the lower the MAE.
@@ -222,7 +222,7 @@ As we can clearly see in the plot, increasing learning rate causes lower MAE on 
 #### secondary accuracy metric : RMSE
 
 
-![png](https://ws4.sinaimg.cn/large/006tNbRwly1fx0debfferj30ao07e3yp.jpg)
+![Screen Shot 2018-11-07 at 10.24.38 PM](https://ws3.sinaimg.cn/large/006tNbRwly1fx0hqj4mdsj30nk0fkjs5.jpg)
 
 
 The trend of RMSE is similar with MAE. RMSE goes down as more regularization is enforced.
