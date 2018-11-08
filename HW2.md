@@ -217,7 +217,7 @@ As the plot showing, there is no pattern of relationships between fitting time a
 ![Screen Shot 2018-11-07 at 10.23.26 PM](https://ws3.sinaimg.cn/large/006tNbRwly1fx0hqi7gtpj30nk0f80tj.jpg)
 
 
-As we can clearly see in the plot, increasing learning rate causes lower MAE on test data at each level of regularization. The heavier weight of the regularization, the lower the MAE.
+As we can clearly see in the plot, the lowest MAE occurs at regularization = 0.1 with learning rate at 0.011. The model overfit the data as the learning rate goes up too much.
 
 #### secondary accuracy metric : RMSE
 
@@ -275,7 +275,7 @@ The smaller the sample size, the faster the model fits.
 #### The best parameters:
    * In order to have good performance, we need to train the model by finding a good set of parameters.
    * For KNN, the best neighbor size for our model is k =55.
-   * For SVD, the less the learning rate and the higher the regularization weights are better for this project.
+   * For SVD, regularization = 0.1 with learning rate at 0.011 is better for this project.
    * For NMF, the best latent dimensions is at 12. 
 
 
